@@ -23,10 +23,10 @@ For each record in the dataset it is provided:
 
 The script cleans and organizes the complete data set through the following tasks and outputs the results as a text file named "UCI HAR Dataset Extract.txt" within the user's working directory.  A file extension of .txt was selected to overcome upload limitaitons on Coursera.  Despite the file extension of .txt, the output should be treated as a comma-separated file and can be accessed using the read.csv funciton.
 
-	1 - Combine a subject identifier, activity labels and a vector of 561 variables from 2,947 test observations into a tidy test data set
-	2 - Combine a subject identifier, activity labels and a vector of 561 variables from 7,352 test observations into a tidy training data set
-	3 - Row bind the tidy test and training data sets into a single tidy data set containing 10,299 observations across 563 variables (Subject, ActivityLabel, and 561 features)
-	4 - Subset the tidy data set from step 3 above by extracting only those variables from the original vector of 561 features that a measure of the mean or standard deviation.  The result is a data set consisting of 10,299 	    observations across 68 variables.
+	* Combine a subject identifier, activity labels and a vector of 561 variables from 2,947 test observations into a tidy test data set
+	* Combine a subject identifier, activity labels and a vector of 561 variables from 7,352 test observations into a tidy training data set
+	* Row bind the tidy test and training data sets into a single tidy data set containing 10,299 observations across 563 variables (Subject, ActivityLabel, and 561 features)
+	* Subset the tidy data set from step 3 above by extracting only those variables from the original vector of 561 features that a measure of the mean or standard deviation.  The result is a data set consisting of 10,299 	    observations across 68 variables.
 
 ##VARIABLE NAMES AND DEFINITIONS:
 * Subject is a unique ID ranging from 1 to 30 which identifies the subject participant
@@ -70,7 +70,7 @@ The script cleans and organizes the complete data set through the following task
 	- fBodyGyroMag
 	- fBodyGyroJerkMag
 
-Detailed descriptions for each of these variables can be found "features_info.txt" downloaded as part of the original .ZIP data set.
+Detailed descriptions for each of these variables can be found in the "features_info.txt" file downloaded as part of the original .ZIP data set.
 
 ##TIDY DATA SET #2:
 
