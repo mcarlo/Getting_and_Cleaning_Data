@@ -25,8 +25,8 @@ The entire .zip file is then extracted to a new sub-dirctory named "UCI HAR Data
 
 The script writes two distinct text files to the data subdirectory as follows:
 
-* "UCI HAR Dataset Extract.csv" subsets the combined training and test sets from the complete UCI HAR Dataset by including only those variables that are either a mean or standard deviation for each measurement from the complete file.
-* "UCI HAR Dataset Mean by Subject and Activity" further subsets "UCI HAR Dataset Extract.csv" by including only a mean of each included variable by subject ID and activity type.
+* "UCI HAR Dataset Extract.txt" subsets the combined training and test sets from the complete UCI HAR Dataset by including only those variables that are either a mean or standard deviation for each measurement from the complete file.
+* "UCI HAR Dataset Mean by Subject and Activity.txt" further subsets "UCI HAR Dataset Extract.txt" by including only a mean of each included variable by subject ID and activity type.
 
 Detailed descriptions of the data set, individual variables and transformaiton methods can be found in the CodeBook.md mark-down file within this Github repository.
 
